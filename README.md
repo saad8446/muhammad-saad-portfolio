@@ -1,20 +1,58 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Muhammad Saad Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website! This portfolio showcases my journey as a **BS Data Science student**, highlighting my skills, projects, and passion for Artificial Intelligence and Machine Learning.
 
-This contains everything you need to run your app locally.
+## 🌐 Live Website
 
-View your app in AI Studio: https://ai.studio/apps/316aa766-a173-4be5-b6a7-b219100c7d5a
+**Portfolio:** https://muhammad-saad-ds.vercel.app/
 
-## Run Locally
+## 👨‍💻 About Me
 
-**Prerequisites:**  Node.js
+I am **Muhammad Saad**, a BS Data Science student with a strong interest in Machine Learning, Artificial Intelligence, Data Analysis, and Software Development. I enjoy building real-world projects that solve practical problems using data-driven approaches.
 
+## 🚀 Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Modern and responsive portfolio design
+* Interactive user interface
+* Project showcase with live demos
+* Skills and technology section
+* Contact form
+* SEO optimized
+* Fast deployment with Vercel
+
+## 🛠️ Technologies Used
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Git & GitHub
+
+## 📂 Featured Projects
+
+### 🎬 Movie Success Prediction
+
+A machine learning project that predicts whether a movie is likely to become commercially successful based on historical movie data and relevant features.
+
+### 🤖 AI Health Assistant
+
+An AI-powered health assistant built using Large Language Models to provide informative responses and an interactive user experience.
+
+## 📬 Contact
+
+* **Email:** [msaaad8484@gmail.com](mailto:msaaad8484@gmail.com)
+* **LinkedIn:** https://www.linkedin.com/in/muhammad-saad-837662399/
+* **GitHub:** https://github.com/saad8446
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/saad8446/muhammad-saad-portfolio.git
+cd muhammad-saad-portfolio
+npm install
+npm run dev
+```
+
+## 📄 License
+
+This project is open source and available under the MIT License.
