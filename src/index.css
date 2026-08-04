@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-bg: #070d0a; /* Deep dark greenish-black canvas */
+  --color-brand-card: #0e1712; /* Dark black-emerald card */
+  --color-brand-border: #182e22; /* Dark emerald border */
+  --color-brand-text: #f8fafc; /* Bright white text */
+  --color-brand-muted: #94a3b8; /* Muted text */
+  --color-brand-accent: #10b981; /* Emerald-500 accent */
+}
+
+/* Base modifications for sleek dark black/greenish developer portfolio theme */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  background-color: #070d0a;
+  color: #f8fafc;
+}
+
+body {
+  background-color: #070d0a;
+  color: #f8fafc;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #08120d;
+}
+::-webkit-scrollbar-thumb {
+  background: #193325;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
+
+/* Clean panel helpers */
+.clean-card {
+  background-color: #0e1712;
+  border: 1px solid #182e22;
+  border-radius: 1rem;
+}
+
+.clean-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.clean-card-hover:hover {
+  border-color: #10b981;
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.15);
+  transform: translateY(-2px);
+}
+
+
+
+
